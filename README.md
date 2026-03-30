@@ -14,27 +14,38 @@ Rule-based algorithm for automatic seat assignment
 Prevents students with the same subject sitting on the same bench
 Supports multi-hall allocation with structured distribution
 Handles edge cases like insufficient capacity
+
+
 👨‍🏫 Invigilator Allocation
 Assigns invigilators only to active halls
 Avoids subject conflicts during assignment
 Dynamically allocates based on hall size
+
+
 📊 Admin Dashboard
 Overview of students, teachers, halls, and exams
 Malpractice monitoring system
 Centralized control for all operations
+
+
 🪑 Hall Visualization
 Real-time graphical layout of seating arrangement
 Bench-level seat visibility (Left, Middle, Right)
 Occupied vs empty seat indicators
+
+
 🔐 Role-Based Access
 Admin: Full system control
 Invigilator: View duty & report malpractice
 Student: View seat allocation
+
+
 🏗️ Tech Stack
 Frontend: Flutter (Web + Android)
 Backend: Node.js, Express.js
-Database: MongoDB
-Other Tools: Nodemailer (for notifications), REST APIs
+Database: MySQL
+
+
 ⚙️ How It Works
 Admin uploads student, exam, and hall data
 System processes constraints and runs seat allocation algorithm
